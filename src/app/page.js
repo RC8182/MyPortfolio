@@ -1,11 +1,12 @@
 import { Divider } from "@/components/divider";
 import { Projects } from "@/components/project-components/projects";
+import Link from "next/link";
 
 export default function Home() {
   const title = 'Explore my Software Development Portfolio. Crafting Innovative Solutions';
   const title2 = " with a Focus on User Experience.";
   const icon = 'RC8182';
-  const about = 'About';
+  const about = 'About Me';
   const projectsTitle = 'Featured Cases';
   const email = 'javiervisconti@hotmail.com';
   const slogan = "Let's Create!";
@@ -51,8 +52,14 @@ export default function Home() {
           </div>
           <div className="social-media text-sm md:text-lg lg:text-xl xl:text-2xl py-2 md:py-4 lg:py-6 xl:py-8">
             <h3 className="text-blue-500">Social</h3>
+            <Link href={'https://www.linkedin.com/in/javier-visconti-1a5b73178/'} target="_blank" rel="noopener noreferrer">
             <h3>LinkedIn</h3>
+            </Link>
+            <Link href={'https://github.com/RC8182'} target="_blank" rel="noopener noreferrer" >
             <h3>Git Hub</h3>
+            </Link>
+
+
           </div>
         </footer>
       </div>

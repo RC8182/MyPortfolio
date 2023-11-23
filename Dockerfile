@@ -9,6 +9,7 @@ USER node
 
 RUN npm install && \
     npm install tailwindcss postcss autoprefixer && \
+    npm i sharp &&\
     npx tailwindcss init -p && \
     npm run build
 

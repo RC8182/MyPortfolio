@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    image: my-portfolio
+    image: my-portfolio 
     build: .
     ports:
       - 3000:3000

@@ -46,7 +46,7 @@ export const projectsList=[
     project={'CV'}
     technologies={'React'}
     image={myCv}
-    link={''}            
+    link={'https://cv-javiervisconti.ddns.net/'}            
     />,
     <Tables 
     key={''}
