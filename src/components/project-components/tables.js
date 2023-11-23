@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 const HoverComponent = ({ img }) => {
   return (
-    <div className="flex fixed bottom-10 w-52 h-96 right-10 p-4 text-white rounded-md z-50 justify-center"
+    <div className="flex fixed bottom-10 w-28 h-52 md:w-52 md:h-96 right-10 p-4 rounded-md z-50 justify-center"
          style={{ backgroundImage: `url(${img?.src})`, backgroundSize: 'cover' }}>
   
     </div>

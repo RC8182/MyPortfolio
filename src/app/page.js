@@ -3,7 +3,7 @@ import { Projects } from "@/components/project-components/projects";
 
 export default function Home() {
   const title = 'Explore my Software Development Portfolio. Crafting Innovative Solutions';
-  const title2 = "with a Focus on User Experience.";
+  const title2 = " with a Focus on User Experience.";
   const icon = 'RC8182';
   const about = 'About';
   const projectsTitle = 'Featured Cases';
@@ -11,7 +11,7 @@ export default function Home() {
   const slogan = "Let's Create!";
 
   return (
-    <main className="flex flex-col items-center justify-between text-white sm:p-4 md:p-12 lg:p-24 xl:p-32">
+    <main className="flex flex-col mx-5 items-center justify-between  text-white sm:p-4 md:p-12 lg:p-24 xl:p-32">
       <div className="main-container flex flex-col">
         <header>
           <div className="flex flex-col md:flex-row justify-between items-center my-4 md:my-9">
@@ -23,7 +23,7 @@ export default function Home() {
         <section className="title py-8 md:py-16">
           <div>
             <p>
-              <span className="text-white sm:p-5 md:p-4 text-2xl md:text-6xl lg:text-8xl xl:text-9xl">{title}</span>
+              <span className="text-white sm:mx-3 sm:p-5 md:p-4 text-2xl md:text-6xl lg:text-8xl xl:text-9xl">{title}</span>
               <span className="text-blue-500 sm:p-5 md:p-4 text-2xl md:text-6xl lg:text-8xl xl:text-9xl">{title2}</span>
             </p>
           </div>
@@ -31,7 +31,7 @@ export default function Home() {
         </section>
 
         <section className="projects-section flex-col">
-          <div className="projects-title text-2xl md:text-4xl lg:text-6xl xl:text-8xl py-2 md:py-4 lg:py-6 xl:py-8">
+          <div className="projects-title mx-5 sm:text-1xl md:text-4xl lg:text-6xl xl:text-8xl py-2 md:py-4 lg:py-6 xl:py-8">
             <h2>{projectsTitle}</h2>
           </div>
           <div className="project-componer">

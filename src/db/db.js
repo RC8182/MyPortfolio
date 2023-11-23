@@ -13,55 +13,63 @@ export const projectsList=[
     year={'2022'}
     project={'Multimedia'}
     technologies={'React'}
-    image={multimedia}    
+    image={multimedia}
+    link={''}    
     />,
     <Tables 
     key={''}
     year={'2022'}
     project={'Node - Mongo CRUD'}
     technologies={'Express, Mongo'}
-    image={nodeCrud}    
+    image={nodeCrud} 
+    link={''}           
     />,
     <Tables 
     key={''}
     year={'2022'}
     project={'Notes App'}
     technologies={'React, Express, Mongo'}
-    image={notas}    
+    image={notas}
+    link={''}            
     />,
     <Tables 
     key={''}
     year={'2023'}
     project={'Weather App'}
     technologies={'React, FastAPI, Docker'}
-    image={medanoWind}    
+    image={medanoWind} 
+    link={'https://medano-wind.ddns.net/'}           
     />,
     <Tables 
     key={''}
     year={'2023'}
     project={'CV'}
     technologies={'React'}
-    image={myCv}    
+    image={myCv}
+    link={''}            
     />,
     <Tables 
     key={''}
     year={'2023'}
     project={'Arena Negra Restaurante'}
     technologies={'NextJs, Docker'}
-    image={arenaN}    
+    image={arenaN}
+    link={'https://arena-negra-restaurant.com/'}            
     />,
     <Tables 
     key={''}
     year={'2023'}
     project={'Weather App'}
     technologies={'Dart, Flutter'}
-    image={canaryW}    
+    image={canaryW}   
+    link={''}         
     />,   
     <Tables 
     key={''}
     year={'2023'}
     project={'MyPortfolio'}
     technologies={'NextJS, Docker'}
-    image={myPort}    
+    image={myPort}   
+    link={''}         
     />,      
 ];
