@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link';
 import { useState } from 'react';
 
 
@@ -22,7 +23,9 @@ export const Tables = ({ year, project, technologies, link, image }) => {
     >
       <div className="flex py-8 px-4 space-x-4 text-2xl">
         <div className="year">{year}</div>
+        <Link href={link} target="_blank" rel="noopener noreferrer">
         <div className="project-mame">{project}</div>
+        </Link>
         <div className="technologies">{technologies}</div>
       </div>
 
