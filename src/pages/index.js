@@ -1,12 +1,13 @@
 import { Divider } from "@/components/divider";
 import { Projects } from "@/components/project-components/projects";
+import '../app/globals.css'
 import Link from "next/link";
 
 export default function Home() {
   const title = 'Explore my Software Development Portfolio. Crafting Innovative Solutions';
   const title2 = " with a Focus on User Experience.";
   const icon = 'RC8182';
-  const about = 'About Me';
+      const about = 'About Me';
   const projectsTitle = 'Featured Cases';
   const email = 'javiervisconti@hotmail.com';
   const slogan = "Let's Create!";
