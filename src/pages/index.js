@@ -6,8 +6,8 @@ import Link from "next/link";
 export default function Home() {
   const title = 'Explore my Software Development Portfolio. Crafting Innovative Solutions';
   const title2 = " with a Focus on User Experience.";
-  const icon = 'RC8182';
-      const about = 'About Me';
+
+  const about = 'About Me';
   const projectsTitle = 'Featured Cases';
   const email = 'javiervisconti@hotmail.com';
   const slogan = "Let's Create!";
@@ -16,9 +16,8 @@ export default function Home() {
     <main className="flex flex-col mx-5 items-center justify-between  text-white sm:p-4 md:p-12 lg:p-24 xl:p-32">
       <div className="main-container flex flex-col">
         <header>
-          <div className="flex flex-col md:flex-row justify-between items-center my-4 md:my-9">
-            <div className="icon sm:text-2xl md:text-4xl lg:text-6xl ">{icon}</div>
-            <div className="about hover:text-blue-500 text-lg md:text-xl lg:text-2xl xl:text-3xl">{about}</div>
+          <div className="flex flex-col md:flex-row justify-between items-center my-4 md:my-5">
+
           </div>
         </header>
 
@@ -30,6 +29,34 @@ export default function Home() {
             </p>
           </div>
           <Divider b={'border-t-2'} my={'my-4 md:my-6'} color={'text-white'} />
+        </section>
+
+        <section className="about-me flex-col">
+          <div className="about-title mx-5 py-2 md:py-4 lg:py-6 xl:py-8">
+            <h2 className="sm:text-1xl md:text-4xl lg:text-6xl xl:text-8xl">{about}</h2>
+            <Divider b={'border-t-2'} my={'my-4 md:my-6'} color={'text-white'} />
+            <div class="max-w-6xl mx-auto bg-white p-6 rounded shadow-md text-black text-2xl" >
+            <div className="flex text-center ">
+              <strong>
+                <h1>Junior Software Developer</h1>
+              </strong>
+            </div>
+
+            <div>
+            <p>
+                Passionate about the world of IT and programming. I have more than 5 years of experience working as a technical support agent in multinational companies such as IBM or Lenovo.
+              </p>
+
+              <p>
+                In recent years, I have focused my career in the programming sector. Currently, I have finished my training as a Front-End developer and I continue my training with the goal of becoming a Full-Stack developer.
+              </p>
+            </div>
+
+            </div>
+          </div>
+          <div className="project-componer">
+
+          </div>
         </section>
 
         <section className="projects-section flex-col">
