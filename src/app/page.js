@@ -35,7 +35,7 @@ export default function Home() {
           <div className="about-title mx-5 py-2 md:py-4 lg:py-6 xl:py-8">
             <h2 className="sm:text-1xl md:text-4xl lg:text-6xl xl:text-8xl">{about}</h2>
             <Divider b={'border-t-2'} my={'my-4 md:my-6'} color={'text-white'} />
-            <div class="max-w-6xl mx-auto bg-white p-6 rounded shadow-md text-black text-2xl" >
+            <div className="max-w-6xl mx-auto bg-white p-6 rounded shadow-md text-black text-2xl" >
             <div className="flex text-center ">
               <strong>
                 <h1>Junior Software Developer</h1>
